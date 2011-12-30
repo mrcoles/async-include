@@ -4,8 +4,7 @@ Async Include
 
 A simple script to asynchronously include content on an HTML page with simple markup that “just works”.
 
-    :::html
-    <div class="async-include" data-url="/test-include.html"></div>
+    <div data-async-url="/some-url/"></div>
 
 Just include the `async-include.js` file on your page and it will asynchronously replace elements on your page with a class of `async-include` and a `data-url` attribute.
 
