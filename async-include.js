@@ -1,9 +1,9 @@
 /* async-inlude - by Peter Coles http://mrcoles.com */
 (function($) {
     $(function() {
-        $('.async-include').each(function() {
+        $('[data-async-url]').each(function() {
             var $this = $(this),
-                url = $this.data('url');
+                url = $this.data('async-url');
             $.ajax({
                 url: url,
                 dataType: 'html',

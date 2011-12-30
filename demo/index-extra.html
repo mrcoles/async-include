@@ -2,19 +2,25 @@
 <html lang="en">
     <head>
         <meta charset=utf-8>
-        <title>Async Include Test</title>
+        <title>Async Include (extra) Test</title>
         <style>
             body { padding: 20px; margin: 0; font: normal 16px/20px Helvetica,Arial; }
             h1 { font-size: 30px; line-height: 40px; }
             h1, p { padding: 0; margin: 0 0 20px; }
+            p { padding: 8px; background: #ffc; border: 2px dotted #e6e0dd; }
         </style>
     </head>
     <body>
-        <h1>Asynchronous includes demo</h1>
+        <h1>Asynchronous includes (extra) demo</h1>
         <p>This is static content.</p>
-        <div class="async-include" data-url="/demo/includes/include.html"></div>
-        <div class="async-include" data-url="/demo/includes/include-delayed.html" data-delay="2000"></div>
+        <div data-async-url="/demo/includes/include.html"></div>
+        <div data-async-url="/demo/includes/include-delayed.html" data-delay="2000"></div>
+        <br><br>
+        <small>
+            Source code <a href="https://github.com/mrcoles/async-include">on github</a>.<br>
+            See the <a href="/demo/">async include basic demo</a> too.
+        </small>
         <script src="/demo/jquery-1.6.4.min.js"></script>
-        <script src="/async-include.js"></script>
+        <script src="/async-include-extra.js"></script>
     </body>
 </html>
