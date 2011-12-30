@@ -6,7 +6,7 @@ A simple script to asynchronously include content on an HTML page with simple ma
 
     <div data-async-url="/some-url/"></div>
 
-Just include the `async-include.js` file on your page and it will asynchronously replace elements on your page with a class of `async-include` and a `data-url` attribute.
+Just include the `async-include.js` file on your page and it will asynchronously replace elements that have a `data-async-url` attribute with the contents of requesting that url.
 
 This is intended for elements that might be slow to load and are not the primary focus of a page (such as some customized sidebar content). Your page loads will be faster for you users since it will deliver the whole page before trying to load the asynchronous content and it should often look like one regular page load to the user.
 
