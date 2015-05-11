@@ -1,0 +1,19 @@
+{
+  "name": "async-include",
+  "main": "async-include.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mrcoles/async-include.git",
+  "authors": [
+    "Peter Coles"
+  ],
+  "description": "A super simple way to asynchronously include content on your page",
+  "keywords": [
+    "async",
+    "include",
+    "js",
+    "ajax",
+    "html",
+    "json"
+  ],
+  "license": "MIT"
+}
