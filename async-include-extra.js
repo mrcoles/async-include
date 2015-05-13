@@ -5,8 +5,8 @@
       var that = $(this);
 
       var url = that.data('async-include-url'),
-        dataType = that.data('async-include-type') || 'html',
-        delay = that.data('async-include-delay') || 0;
+        dataType = that.data('async-include-type') || that.data('type') || 'html',
+        delay = that.data('async-include-delay') || that.data('delay') || 0;
 
       window.setTimeout(function() {
         $.ajax({
