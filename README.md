@@ -6,7 +6,7 @@ A simple script to asynchronously include content on an HTML page with simple ma
 
     <div data-async-include-url="/some-url/"></div>
 
-Just include the `async-include.js` file on your page, activate the replace when you want like when the document is ready:
+Add the async-include.js script to your page and then activate it by calling the .asyncInclude() jQuery method (perhaps when the document is ready):
 
 ```javascript
 $(document).ready(function() {
